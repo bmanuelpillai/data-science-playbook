@@ -1,45 +1,46 @@
-# Tools for Machine Learning in Python
+# Tools for Machine Learning
 
-*Scikit-Learn, Tensorflow, Pytorch*
+*scikit-learn, tidymodels, PyTorch, TensorFlow*
 
-### Scikit-Learn
+## scikit-learn
 
-Scikit-Learn is great for traditional machine learning tasks like classification, regression, clustering, etc.
+scikit-learn is great for traditional machine learning tasks like classification, regression, clustering, etc.
 
-A good starting place would be getting comfortable with NumPy, Pandas, and Matplotlib in Python so that you can clean your data into features and target. After that learn the different ML algorithms and when to use them.
+A good starting place is getting comfortable with NumPy, pandas, and Matplotlib in Python so that you can clean your data and split it into features (X) and a target (y). After that, learn the different ML algorithms and when to use them.
 
-### Tidymodels
+## tidymodels
 
-TidyModels is similar to Scikit learn but in R and uses tidyverse principles. Read more about it here [here](https://www.tidymodels.org/start/models/).
+tidymodels is similar to scikit-learn but in R, and it follows tidyverse principles. Read more in the [tidymodels getting-started guide](https://www.tidymodels.org/start/models/).
 
-### Types of Machine Learning Algorithms
+## Types of Machine Learning Algorithms
 
 - **Supervised Learning**
-  - Classification: Logistic Regression, Decision Trees, Support Vector Machines (SVM)
-  - Regression: Linear Regression, Random Forest Regressor, Gradient Boosting
+  - Classification: Logistic Regression
+  - Regression: Linear Regression
+  - Both: Decision Trees, Random Forests, Gradient Boosting, Support Vector Machines (SVM)
 - **Unsupervised Learning**
   - Clustering: K-Means Clustering, Hierarchical Clustering
   - Dimensionality Reduction: Principal Component Analysis (PCA)
-- **Reinforced Learning**
-  - Large Language Models
+- **Reinforcement Learning**
+  - Game-playing agents (e.g., AlphaGo), robotics, and fine-tuning large language models (RLHF)
 
-### Data Splitting
+## Data Splitting
 
 Divide your data into the following subsets:
 
-- **Training Data:** Used for model development.
-- **Validation Data:** Used for tuning model parameters and preventing overfitting.
-- **Testing Data:** Used for evaluating the final model's performance on unseen data.
+- **Training Data:** Used to fit the model.
+- **Validation Data:** Used for tuning hyperparameters, comparing models, and detecting overfitting.
+- **Testing Data:** Used once, at the end, to evaluate the final model's performance on unseen data.
 
-### Choose What ML Algorithm Is Right For You
+## Choosing the Right ML Algorithm
 
 ![Machine Learning Algorithm Cheat Sheet ([source](https://learn.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet?view=azureml-api-1))](images/ml.png)
 
-### Neural Networks
+## Neural Networks
 
-Neural Networks are used for deep learning and are fairly advanced. The 2 widely used deep learning frameworks are PyTorch and Tensorflow
+Neural networks are used for deep learning and are fairly advanced. The two most widely used deep learning frameworks are [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/). PyTorch is more common in research and is a good default if you're starting out.
 
-### Basic Hyperparameters in Neural Networks
+## Basic Hyperparameters in Neural Networks
 
 - **Learning Rate:** Controls how quickly the model updates its weights.
   - Too high – the model may overshoot and fail to converge (it bounces around).
@@ -51,4 +52,4 @@ Neural Networks are used for deep learning and are fairly advanced. The 2 widely
 - **Epoch:** One complete pass through the entire training dataset.
   - Example: 1,000 samples / batch size 100 = 10 iterations per epoch
 
-Josh Starmer has a great course on YouTube that walks you through principles of machine learning [here](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF).
+Josh Starmer has a great course on YouTube that walks you through the principles of machine learning: the [StatQuest machine learning playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF).
