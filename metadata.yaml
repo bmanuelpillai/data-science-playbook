@@ -6,6 +6,7 @@ toc: true
 toc-depth: 1
 geometry: margin=1in
 colorlinks: true
+toccolor: black
 monofont: Menlo
 monofontoptions: Scale=0.85
 ---
