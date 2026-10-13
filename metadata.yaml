@@ -1,0 +1,11 @@
+---
+title: Data Science Playbook for Researchers
+author: Bevin Manuelpillai
+documentclass: report
+toc: true
+toc-depth: 1
+geometry: margin=1in
+colorlinks: true
+monofont: Menlo
+monofontoptions: Scale=0.85
+---
