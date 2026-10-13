@@ -2,40 +2,64 @@
 
 *Useful Resources for Programmers*
 
-### New tools
+## New Tools
 
-Many times switching form a tool you are comfortable with to something new can feel overwhelming. You'll feel unproductive and frustrated, but if you plan on coding in the long-term then this initial time spent will have huge benefits to you.
+Switching from a tool you are comfortable with to something new can often feel overwhelming. You'll feel unproductive and frustrated, but if you plan on coding in the long term, this initial time investment will pay off hugely.
 
-### Why Learn VScode
+## Why Learn VS Code
 
-VScode is the industry standard code editor, and for good reason. It is super fast, lightweight, and is highly customizable. Rstudio is great for R, but if you ever want to branch off and learn a new coding language, VScode will set you up perfectly for this. Another great addition to VScode is its integration with Copilot which can be super useful for code completions.
+VS Code is the industry-standard code editor, and for good reason. It is super fast, lightweight, and highly customizable. RStudio is great for R, but if you ever want to branch out and learn a new programming language, VS Code will set you up perfectly for this. Another great addition to VS Code is its integration with GitHub Copilot, which can be super useful for code completions.
 
-- [Download VScode](https://code.visualstudio.com/download)
+Posit's [Positron](https://positron.posit.co/) is also worth a look: a VS Code-based editor built for data science that will feel familiar to RStudio users.
 
-#### Here is my personal VScode set up for MacOS:
+- [Download VS Code](https://code.visualstudio.com/download)
 
-- Keyboard Shortcuts with a Similar Set Up to VIM
-  - Keyboard shortcuts: `files/keyboard_shortcuts_bm.JSON` in this repo
-- General VScode Settings for Coding in R and Python
-  - VS Code settings: `files/vscode_settings_bm.JSON` in this repo
+### My VS Code Setup (macOS)
 
-### What is VIM motions
+- Vim-like keyboard shortcuts: [keyboard_shortcuts_bm.JSON](https://github.com/bmanuelpillai/data-science-playbook/blob/main/files/keyboard_shortcuts_bm.JSON)
+- General VS Code settings for coding in R and Python: [vscode_settings_bm.JSON](https://github.com/bmanuelpillai/data-science-playbook/blob/main/files/vscode_settings_bm.JSON)
 
-VIM motions are a set of key bindings that let you quickly navigate and edit text without using your mouse. Basically it allows you to keep you hands on the keyboard at all times. For example with VIM motions you can quickly copy and paste a line of code, delete code inside of parenthesis, and so much more.
+## What Are Vim Motions?
 
-### Why Learn VIM motions
+Vim motions are a set of key bindings that let you quickly navigate and edit text without using your mouse. Basically, they allow you to keep your hands on the keyboard at all times. For example, with Vim motions you can quickly copy and paste a line of code, delete the code inside parentheses, and so much more.
 
-Learn VIMotions at first is very tough, despite how intuitive the controls are. It will likely reduce your productivity for a bit until you get comfortable. One common argument that people have about why to learn VIM is that it will make you a faster programmer. I would argue that the best reason to learn VIM is that it reduces the amount of time between when an idea pops into your mind and when you fingers can start to type it out.
+## Why Learn Vim Motions
 
-- [VIM extension for VScode](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [Learn Vim Motions](https://www.vim-hero.com/)
-- You can also set up VIM motions in [Rstudio](https://stackoverflow.com/questions/47208252/how-to-enable-vim-mode-in-rstudio)
-- I also have Vim Motions set up on my browser with the vimium chrome extension
-- I recommend mapping your caps lock key to your escape key to quickly change form normal to insert mode
+Learning Vim motions is very tough at first, even though the controls become intuitive with practice. It will likely reduce your productivity for a bit until you get comfortable. One common argument for learning Vim is that it will make you a faster programmer. I would argue that the best reason to learn Vim is that it reduces the time between when an idea pops into your mind and when your fingers can start to type it out.
 
-### Autoformat Code in R
+- [Vim extension for VS Code](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [Learn Vim motions with Vim Hero](https://www.vim-hero.com/)
+- You can also set up Vim motions in [RStudio](https://stackoverflow.com/questions/47208252/how-to-enable-vim-mode-in-rstudio)
+- I also use Vim motions in my browser with the [Vimium](https://vimium.github.io/) Chrome extension
+- I recommend mapping your Caps Lock key to Escape so you can quickly switch from insert mode back to normal mode
 
-- VScode extension that autoformats your code when you save a file
-  - [AIR - R Language Support](https://marketplace.visualstudio.com/items?itemName=Posit.air-vscode)
-- RStudio package to autoformat your code
-  - [Styler package Support](https://r4ds.hadley.nz/workflow-style.html)
+## Autoformat Code in R
+
+- VS Code extension that autoformats your code when you save a file
+  - [Air - R Language Support](https://marketplace.visualstudio.com/items?itemName=Posit.air-vscode)
+- R package to autoformat your code in RStudio
+  - [The `styler` package](https://r4ds.hadley.nz/workflow-style.html)
+
+## Useful Tools for Developers
+
+[Raycast (macOS)](https://www.raycast.com/)
+
+- Use shortcuts to launch apps
+- Quickly switch between your browser and code editor
+
+[AeroSpace (macOS)](https://github.com/nikitabobko/AeroSpace)
+
+- Tiling window manager for macOS
+- Easily manage windows and workspaces
+
+[Ghostty (macOS and Linux)](https://ghostty.org/)
+
+- Really fast terminal
+- Native look and feel, with tabs and split panes
+- Very customizable
+
+[Obsidian](https://obsidian.md/)
+
+- Markdown-based note-taking
+- Great global search to quickly find notes
+- Has great plugins that allow you to write formatted code
